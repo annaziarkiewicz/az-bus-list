@@ -1,0 +1,47 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`AzSorting > it should match snapshot 1`] = `
+<div>
+  <div
+    class="az-sorting"
+    data-v-0a9b0fa1=""
+  >
+    <div
+      class="az-sorting__order"
+      data-v-0a9b0fa1=""
+    >
+      <svg
+        class="az-sorting__icon az-sorting__icon--active"
+        data-testid="az-sorting-asc"
+        data-v-0a9b0fa1=""
+        viewBox="0 0 21 21"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M16.4766 13.991C16.2423 14.2254 15.8624 14.2254 15.6281 13.991L9.65234 8.0153L3.67661 13.991C3.44229 14.2254 3.06239 14.2254 2.82808 13.991C2.59376 13.7567 2.59376 13.3768 2.82808 13.1425L9.22808 6.74251C9.46239 6.50819 9.84229 6.50819 10.0766 6.74251L16.4766 13.1425C16.7109 13.3768 16.7109 13.7567 16.4766 13.991Z"
+          data-v-0a9b0fa1=""
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+    <div
+      class="az-sorting__order"
+      data-v-0a9b0fa1=""
+    >
+      <svg
+        class="az-sorting__icon"
+        data-testid="az-sorting-desc"
+        data-v-0a9b0fa1=""
+        viewBox="0 0 21 21"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M3.62886 6.34246C3.86318 6.10814 4.24307 6.10814 4.47739 6.34246L10.4531 12.3182L16.4289 6.34246C16.6632 6.10814 17.0431 6.10814 17.2774 6.34246C17.5117 6.57677 17.5117 6.95667 17.2774 7.19099L10.8774 13.591C10.6431 13.8253 10.2632 13.8253 10.0289 13.591L3.62886 7.19099C3.39455 6.95667 3.39455 6.57677 3.62886 6.34246Z"
+          data-v-0a9b0fa1=""
+          fill-rule="evenodd"
+        />
+      </svg>
+    </div>
+  </div>
+</div>
+`;

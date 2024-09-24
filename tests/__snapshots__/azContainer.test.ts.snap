@@ -1,0 +1,12 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`AzContainer > it should match snapshot 1`] = `
+<div>
+  <h2
+    class="az-view-title"
+    data-v-6a35dec1=""
+  >
+    tested title
+  </h2>
+</div>
+`;

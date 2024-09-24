@@ -1,0 +1,25 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`AzContainer > it should match snapshot 1`] = `
+<div>
+  <div
+    class="az-container col"
+    data-v-eff618bf=""
+  >
+    
+    
+  </div>
+</div>
+`;
+
+exports[`AzContainer > it should match snapshot 2`] = `
+<div>
+  <div
+    class="az-container az-container--bg az-container--outline row"
+    data-v-eff618bf=""
+  >
+    
+    
+  </div>
+</div>
+`;

@@ -15,14 +15,13 @@ describe("AzSearchBar", () => {
   test("it should emit input event", async () => {
     // Arrange
     const { getByTestId, emitted } = render(AzSearchBar);
-    const input = getByTestId("az-search-bar");
+    const input: HTMLInputElement = getByTestId("az-search-bar");
 
     // Act
     await fireEvent.input(input, { target: { value: "test" } });
     await fireEvent.keyUp(input, { key: "Enter" });
 
     // Assert
-    // @ts-ignore
     expect(input.value).toBe("test");
     expect(emitted().search).toEqual([["test"]]);
   });
